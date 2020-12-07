@@ -1,9 +1,12 @@
 const fs = require('fs');
 const faker = require('faker');
 
+//Product Info
 const createProductInfo = (numOfRecords) => {
+  //Timer setter
+  let start = Date.now();
 
-  let productArrayString = [];
+  let productInfoString = [];
 
   for (let i = 1; i <= numOfRecords; i++) {
     //Create fake data strings to be appended to a file created with fs module.
@@ -24,23 +27,25 @@ const createProductInfo = (numOfRecords) => {
 
 
     if (i !== numOfRecords) {
-      productArrayString.push(`${JSON.stringify(newProduct)},`);
+      productInfoString.push(`${JSON.stringify(newProduct)},`);
     } else {
-      productArrayString.push(`${JSON.stringify(newProduct)}`);
+      productInfoString.push(`${JSON.stringify(newProduct)}`);
     }
   }
+  productInfoString = productInfoString.sort((a, b) => a - b).join('').toString();
 
-  fs.appendFile('./db/data/productInfos.json', '[' + productArrayString.sort((a,b) => a-b).join('').toString() + ']', (err) => {
+  fs.appendFile('./db/data/productInfos.json', '[' + productInfoString + ']', (err) => {
     if (err) {
       throw error;
-      }
-      console.log(`Records have been appended to file!`);
-    });
+    }
+    console.log(`Records have been appended to file!`);
+  });
 
+  let end = Date.now();
+  console.log('Time-Elapsed in milliseconds: ', end - start);
 };
 
-
-
+//Product Styles
 
 
 module.exports = {
