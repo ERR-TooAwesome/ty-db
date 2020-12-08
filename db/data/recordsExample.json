@@ -1,0 +1,182 @@
+[
+  {
+    "productId": 1,
+    "name": "Unbranded Fresh Cheese",
+    "slogan": "Small Refined Licensed",
+    "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+    "category": "Garden",
+    "default_price": 58,
+    "features": [
+      {
+        "feature": "Small",
+        "value": "Handmade"
+      },
+      {
+        "feature": "Sleek",
+        "value": "Ergonomic"
+      }
+    ]
+  },
+  {
+    "productId": 2,
+    "name": "Refined Steel Chicken",
+    "slogan": "Generic Rustic Handmade",
+    "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+    "category": "Grocery",
+    "default_price": 596,
+    "features": [
+      {
+        "feature": "Tasty",
+        "value": "Fantastic"
+      },
+      {
+        "feature": "Generic",
+        "value": "Awesome"
+      }
+    ]
+  },
+  {
+    "productId": 3,
+    "name": "Sleek Steel Chair",
+    "slogan": "Licensed Fantastic Incredible",
+    "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+    "category": "Jewelery",
+    "default_price": 11,
+    "features": [
+      {
+        "feature": "Licensed",
+        "value": "Awesome"
+      },
+      {
+        "feature": "Small",
+        "value": "Practical"
+      }
+    ]
+  },
+  {
+    "productId": 4,
+    "name": "Handmade Fresh Mouse",
+    "slogan": "Practical Refined Tasty",
+    "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+    "category": "Music",
+    "default_price": 175,
+    "features": [
+      {
+        "feature": "Licensed",
+        "value": "Rustic"
+      },
+      {
+        "feature": "Ergonomic",
+        "value": "Handcrafted"
+      }
+    ]
+  },
+  {
+    "productId": 5,
+    "name": "Tasty Wooden Sausages",
+    "slogan": "Ergonomic Intelligent Fantastic",
+    "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+    "category": "Electronics",
+    "default_price": 937,
+    "features": [
+      {
+        "feature": "Unbranded",
+        "value": "Generic"
+      },
+      {
+        "feature": "Licensed",
+        "value": "Intelligent"
+      }
+    ]
+  },
+  {
+    "productId": 6,
+    "name": "Incredible Cotton Pizza",
+    "slogan": "Practical Gorgeous Fantastic",
+    "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+    "category": "Kids",
+    "default_price": 220,
+    "features": [
+      {
+        "feature": "Incredible",
+        "value": "Ergonomic"
+      },
+      {
+        "feature": "Fantastic",
+        "value": "Small"
+      }
+    ]
+  },
+  {
+    "productId": 7,
+    "name": "Awesome Metal Chips",
+    "slogan": "Small Licensed Sleek",
+    "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+    "category": "Toys",
+    "default_price": 799,
+    "features": [
+      {
+        "feature": "Tasty",
+        "value": "Licensed"
+      },
+      {
+        "feature": "Practical",
+        "value": "Handcrafted"
+      }
+    ]
+  },
+  {
+    "productId": 8,
+    "name": "Ergonomic Frozen Shoes",
+    "slogan": "Tasty Small Ergonomic",
+    "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+    "category": "Electronics",
+    "default_price": 755,
+    "features": [
+      {
+        "feature": "Ergonomic",
+        "value": "Practical"
+      },
+      {
+        "feature": "Ergonomic",
+        "value": "Handmade"
+      }
+    ]
+  },
+  {
+    "productId": 9,
+    "name": "Fantastic Metal Ball",
+    "slogan": "Rustic Refined Awesome",
+    "description": "The Football Is Good For Training And Recreational Purposes",
+    "category": "Electronics",
+    "default_price": 606,
+    "features": [
+      {
+        "feature": "Small",
+        "value": "Handmade"
+      },
+      {
+        "feature": "Handcrafted",
+        "value": "Handmade"
+      }
+    ]
+  },
+  {
+    "productId": 10,
+    "name": "Awesome Plastic Pants",
+    "slogan": "Practical Practical Handmade",
+    "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+    "category": "Books",
+    "default_price": 867,
+    "features": [
+      {
+        "feature": "Handmade",
+        "value": "Refined"
+      },
+      {
+        "feature": "Unbranded",
+        "value": "Handcrafted"
+      }
+    ]
+  }
+]
