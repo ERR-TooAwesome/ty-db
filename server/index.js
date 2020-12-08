@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
-const port = 5000;
-const queryProductInfo = require('./routes/queryProductInfo.js');
-const queryProductStyle = require('./routes/queryProductStyle.js');
-const queryProductList = require('./routes/queryProductList.js');
+const port = 27017;
+const queryProductInfo = require('../queries/queryProductInfo.js');
+const queryProductStyle = require('../queries/queryProductStyle.js');
+const queryProductList = require('../queries/queryProductList.js');
 
 app.use(express.json());
 
