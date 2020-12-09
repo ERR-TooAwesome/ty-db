@@ -1,5 +1,9 @@
 node_modules
 oneMillionRecords.json
 tenMillionRecords.json
+oneMillionStyleRecords.json
+tenMillionStyleRecords.json
+oneMillionListRecords.json
+tenMillionListRecords.json
 .DS_Store
 db/.DS_Store

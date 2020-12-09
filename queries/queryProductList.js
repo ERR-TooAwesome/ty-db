@@ -1,8 +1,29 @@
-import mongoose from 'mongoose';
-import ProductList from './models/productList.js';
-//may need to connect to db from here?
+const mongoose = require('mongoose');
+const ProductList = require('../db/models/productList.js');
+const dbURI = "mongodb://localhost:27017/tenMillionRecords"
 
-const productsList = ProductList.find({}, (err, products) => {
-  if (err) throw err;
-  return products;
-});
+const queryProductList = (id) => {
+
+  mongoose.connect(dbURI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    // poolSize: 100,
+  })
+
+  mongoose.connection.on('connected', () => {
+    console.log(`Mongoose connected to ${dbURI}`);
+  });
+
+  mongoose.connection.once('open', () => {
+    mongoose.connection.db.collection("tenMillionRecords", function (err, collection) {
+      collection.find({ id: { $lt: 6 } })
+        .then((result => console.log(result)))
+    });
+  })
+};
+
+queryProductList();
+
+module.exports = {
+ queryProductList
+}
