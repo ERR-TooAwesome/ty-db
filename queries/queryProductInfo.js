@@ -1,12 +1,27 @@
 const mongoose = require('mongoose');
 const ProductInfo = require('../db/models/productInfo.js');
-//may need to connect to db from here?
+const dbURI = "mongodb://localhost:27017/tenMillionRecords";
 
-const queryProductInfo = ProductInfo.find({}, (err, products) => {
-  if (err) throw err;
-  return products;
-});
+const queryProductInfo = (id) => {
+
+  mongoose.connect(dbURI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    // poolSize: 100,
+  })
+
+  mongoose.connection.on('connected', () => {
+    console.log(`Mongoose connected to ${dbURI}`);
+  });
+
+  mongoose.connection.once('open', () => {
+    mongoose.connection.db.collection("tenMillionRecords", function (err, collection) {
+      collection.findOne({ productId: id })
+        .then((result => console.log(result)))
+    });
+  })
+}
 
 module.exports = {
-  queryProductInfo
+  queryProductInfo,
 }

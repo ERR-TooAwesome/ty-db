@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+const mongoose = require('mongoose');
 const { Schema } = mongoose;
 
 const productListSchema = new Schema({
@@ -10,4 +10,6 @@ const productListSchema = new Schema({
   default_price: Number, //In original API it appears to be a string
 });
 
-  module.exports default productListSchema;
+module.exports = {
+  productListSchema,
+}
