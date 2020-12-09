@@ -1,0 +1,781 @@
+{
+  "product_id": 1,
+  "results": [
+    {
+      "style_id": 1,
+      "name": "Licensed Fresh Shoes",
+      "original_price": 465,
+      "sale_price": 232.99,
+      "default?": 1,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "9",
+            "qty": 15
+          },
+          {
+            "size": "10",
+            "qty": 15
+          },
+          {
+            "size": "11",
+            "qty": 15
+          }
+        ]
+      }
+    },
+    {
+      "style_id": 2,
+      "name": "Small Granite Soap",
+      "original_price": 465,
+      "sale_price": 232.99,
+      "default?": 1,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "9",
+            "qty": 15
+          },
+          {
+            "size": "10",
+            "qty": 15
+          },
+          {
+            "size": "11",
+            "qty": 15
+          }
+        ]
+      }
+    }
+  ]
+}{
+  "product_id": 2,
+  "results": [
+    {
+      "style_id": 1,
+      "name": "Incredible Concrete Bacon",
+      "original_price": 585,
+      "sale_price": 292.99,
+      "default?": 0,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "S",
+            "qty": 15
+          },
+          {
+            "size": "M",
+            "qty": 15
+          },
+          {
+            "size": "L",
+            "qty": 15
+          }
+        ]
+      }
+    },
+    {
+      "style_id": 2,
+      "name": "Refined Soft Tuna",
+      "original_price": 585,
+      "sale_price": 292.99,
+      "default?": 0,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "S",
+            "qty": 15
+          },
+          {
+            "size": "M",
+            "qty": 15
+          },
+          {
+            "size": "L",
+            "qty": 15
+          }
+        ]
+      }
+    }
+  ]
+}{
+  "product_id": 3,
+  "results": [
+    {
+      "style_id": 1,
+      "name": "Tasty Frozen Sausages",
+      "original_price": 337,
+      "sale_price": 168.99,
+      "default?": 0,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "9",
+            "qty": 15
+          },
+          {
+            "size": "10",
+            "qty": 15
+          },
+          {
+            "size": "11",
+            "qty": 15
+          }
+        ]
+      }
+    },
+    {
+      "style_id": 2,
+      "name": "Practical Rubber Pizza",
+      "original_price": 337,
+      "sale_price": 168.99,
+      "default?": 0,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "9",
+            "qty": 15
+          },
+          {
+            "size": "10",
+            "qty": 15
+          },
+          {
+            "size": "11",
+            "qty": 15
+          }
+        ]
+      }
+    }
+  ]
+}{
+  "product_id": 4,
+  "results": [
+    {
+      "style_id": 1,
+      "name": "Intelligent Granite Shirt",
+      "original_price": 222,
+      "sale_price": 111.99,
+      "default?": 0,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "9",
+            "qty": 15
+          },
+          {
+            "size": "10",
+            "qty": 15
+          },
+          {
+            "size": "11",
+            "qty": 15
+          }
+        ]
+      }
+    },
+    {
+      "style_id": 2,
+      "name": "Rustic Plastic Chair",
+      "original_price": 222,
+      "sale_price": 111.99,
+      "default?": 0,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "9",
+            "qty": 15
+          },
+          {
+            "size": "10",
+            "qty": 15
+          },
+          {
+            "size": "11",
+            "qty": 15
+          }
+        ]
+      }
+    }
+  ]
+}{
+  "product_id": 5,
+  "results": [
+    {
+      "style_id": 1,
+      "name": "Practical Wooden Cheese",
+      "original_price": 55,
+      "sale_price": 27.99,
+      "default?": 0,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "S",
+            "qty": 15
+          },
+          {
+            "size": "M",
+            "qty": 15
+          },
+          {
+            "size": "L",
+            "qty": 15
+          }
+        ]
+      }
+    },
+    {
+      "style_id": 2,
+      "name": "Licensed Plastic Sausages",
+      "original_price": 55,
+      "sale_price": 27.99,
+      "default?": 0,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "S",
+            "qty": 15
+          },
+          {
+            "size": "M",
+            "qty": 15
+          },
+          {
+            "size": "L",
+            "qty": 15
+          }
+        ]
+      }
+    }
+  ]
+}{
+  "product_id": 6,
+  "results": [
+    {
+      "style_id": 1,
+      "name": "Fantastic Cotton Hat",
+      "original_price": 451,
+      "sale_price": 225.99,
+      "default?": 0,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "S",
+            "qty": 15
+          },
+          {
+            "size": "M",
+            "qty": 15
+          },
+          {
+            "size": "L",
+            "qty": 15
+          }
+        ]
+      }
+    },
+    {
+      "style_id": 2,
+      "name": "Fantastic Plastic Car",
+      "original_price": 451,
+      "sale_price": 225.99,
+      "default?": 0,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "S",
+            "qty": 15
+          },
+          {
+            "size": "M",
+            "qty": 15
+          },
+          {
+            "size": "L",
+            "qty": 15
+          }
+        ]
+      }
+    }
+  ]
+}{
+  "product_id": 7,
+  "results": [
+    {
+      "style_id": 1,
+      "name": "Ergonomic Concrete Chair",
+      "original_price": 766,
+      "sale_price": 383.99,
+      "default?": 0,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "9",
+            "qty": 15
+          },
+          {
+            "size": "10",
+            "qty": 15
+          },
+          {
+            "size": "11",
+            "qty": 15
+          }
+        ]
+      }
+    },
+    {
+      "style_id": 2,
+      "name": "Awesome Rubber Pizza",
+      "original_price": 766,
+      "sale_price": 383.99,
+      "default?": 0,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "9",
+            "qty": 15
+          },
+          {
+            "size": "10",
+            "qty": 15
+          },
+          {
+            "size": "11",
+            "qty": 15
+          }
+        ]
+      }
+    }
+  ]
+}{
+  "product_id": 8,
+  "results": [
+    {
+      "style_id": 1,
+      "name": "Unbranded Steel Car",
+      "original_price": 259,
+      "sale_price": 129.99,
+      "default?": 0,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "9",
+            "qty": 15
+          },
+          {
+            "size": "10",
+            "qty": 15
+          },
+          {
+            "size": "11",
+            "qty": 15
+          }
+        ]
+      }
+    },
+    {
+      "style_id": 2,
+      "name": "Handmade Plastic Computer",
+      "original_price": 259,
+      "sale_price": 129.99,
+      "default?": 0,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "9",
+            "qty": 15
+          },
+          {
+            "size": "10",
+            "qty": 15
+          },
+          {
+            "size": "11",
+            "qty": 15
+          }
+        ]
+      }
+    }
+  ]
+}{
+  "product_id": 9,
+  "results": [
+    {
+      "style_id": 1,
+      "name": "Refined Concrete Keyboard",
+      "original_price": 154,
+      "sale_price": 77.99,
+      "default?": 0,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "9",
+            "qty": 15
+          },
+          {
+            "size": "10",
+            "qty": 15
+          },
+          {
+            "size": "11",
+            "qty": 15
+          }
+        ]
+      }
+    },
+    {
+      "style_id": 2,
+      "name": "Small Cotton Keyboard",
+      "original_price": 154,
+      "sale_price": 77.99,
+      "default?": 0,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "9",
+            "qty": 15
+          },
+          {
+            "size": "10",
+            "qty": 15
+          },
+          {
+            "size": "11",
+            "qty": 15
+          }
+        ]
+      }
+    }
+  ]
+}{
+  "product_id": 10,
+  "results": [
+    {
+      "style_id": 1,
+      "name": "Rustic Rubber Chicken",
+      "original_price": 462,
+      "sale_price": 231.99,
+      "default?": 0,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "S",
+            "qty": 15
+          },
+          {
+            "size": "M",
+            "qty": 15
+          },
+          {
+            "size": "L",
+            "qty": 15
+          }
+        ]
+      }
+    },
+    {
+      "style_id": 2,
+      "name": "Unbranded Wooden Hat",
+      "original_price": 462,
+      "sale_price": 231.99,
+      "default?": 0,
+      "photos": [
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        },
+        {
+          "thumbnail_url": "http://placeimg.com/640/480",
+          "url": "http://placeimg.com/640/480"
+        }
+      ],
+      "skus": {
+        "sizes": [
+          {
+            "size": "S",
+            "qty": 15
+          },
+          {
+            "size": "M",
+            "qty": 15
+          },
+          {
+            "size": "L",
+            "qty": 15
+          }
+        ]
+      }
+    }
+  ]
+}
