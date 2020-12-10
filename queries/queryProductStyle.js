@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const ProductStyle = require('../db/models/productStyle.js');
 const dbURI = "mongodb://localhost:27017/tenMillionRecords"
 
-const queryProductStyle = (id) => {
+const queryProductStyle = (id, callback) => {
 
   mongoose.connect(dbURI, {
     useNewUrlParser: true,
@@ -17,12 +17,13 @@ const queryProductStyle = (id) => {
   mongoose.connection.once('open', () => {
     mongoose.connection.db.collection("tenMillionRecords", function (err, collection) {
       collection.findOne({ product_id: id })
-        .then((result => console.log(result)))
+        .then((result) => {
+          callback(null, result);
+          mongoose.connection.close();
+        })
     });
   })
 };
-
-queryProductStyle(1);
 
 module.exports = {
  queryProductStyle

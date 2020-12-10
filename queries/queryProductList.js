@@ -22,8 +22,6 @@ const queryProductList = (id) => {
   })
 };
 
-queryProductList();
-
 module.exports = {
  queryProductList
 }

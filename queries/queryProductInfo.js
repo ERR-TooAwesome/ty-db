@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const ProductInfo = require('../db/models/productInfo.js');
 const dbURI = "mongodb://localhost:27017/tenMillionRecords";
 
-const queryProductInfo = (id) => {
+const queryProductInfo = (id, callback) => {
 
   mongoose.connect(dbURI, {
     useNewUrlParser: true,
@@ -16,8 +16,12 @@ const queryProductInfo = (id) => {
 
   mongoose.connection.once('open', () => {
     mongoose.connection.db.collection("tenMillionRecords", function (err, collection) {
+      if (err) { console.log(err); }
       collection.findOne({ productId: id })
-        .then((result => console.log(result)))
+        .then((result) => {
+          callback(null, result);
+          mongoose.connection.close();
+        })
     });
   })
 }
