@@ -1,3 +1,4 @@
+require('newrelic');
 const express = require('express');
 const app = express();
 const port = 5000;
@@ -20,14 +21,18 @@ app.get('/products/:product_id', (req, res) => {
   let start = Date.now()
   const productId = parseInt(req.params.product_id);
 
+
   queryProductInfo.queryProductInfo(productId, (err, result) => {
+    let formattedPrice = { default_price: result.default_price.toString() }
+    let formattedResult = { ...result, ...formattedPrice}
+
     if (err) {
       console.log('err in server index.js: ', err)
       res.sendStatus(500)
     }
     let stop = Date.now()
     console.log(`ms Elapsed during product info GET request to item: ${productId}`,stop - start)
-    res.status(200).send(result)
+    res.status(200).json(formattedResult)
   })
 
 })

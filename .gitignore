@@ -7,3 +7,6 @@ oneMillionListRecords.json
 tenMillionListRecords.json
 .DS_Store
 db/.DS_Store
+newrelic.js
+newrelic_agent.log
+testScript.js
