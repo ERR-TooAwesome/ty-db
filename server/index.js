@@ -1,10 +1,30 @@
 require('newrelic');
 const express = require('express');
+const mongoose = require('mongoose');
 const app = express();
 const port = 5000;
 const queryProductInfo = require('../queries/queryProductInfo.js');
 const queryProductStyle = require('../queries/queryProductStyle.js');
 const queryProductList = require('../queries/queryProductList.js');
+
+const dbURI = "mongodb://localhost:27017/tenMillionRecords";
+
+mongoose.connect(dbURI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  // poolSize: 100,
+})
+
+mongoose.connection.on('connected', () => {
+  console.log(`Mongoose connected to ${dbURI}`);
+});
+
+  mongoose.connection.once('open', () => {
+    console.log('Server Started');
+    app.listen(port, () => {
+      console.log(`server running at: http://localhost:${port}`);
+    });
+  })
 
 app.use(express.json());
 //eventually add security templating middleware
@@ -60,7 +80,3 @@ app.get('/products/:product_id/styles', (req, res) => {
 //   //use queryProductList route
 //   res.status(200).send('product list')
 // })
-
-app.listen(port, () => {
-  console.log(`server running at: http://localhost:${port}`);
-});
