@@ -7,7 +7,7 @@ const queryProductInfo = require('../queries/queryProductInfo.js');
 const queryProductStyle = require('../queries/queryProductStyle.js');
 const queryProductList = require('../queries/queryProductList.js');
 
-const dbURI = "mongodb://localhost:27017/tenMillionRecords";
+const dbURI = "mongodb://ec2-52-15-225-16.us-east-2.compute.amazonaws.com/tenMillionRecords";
 
 mongoose.connect(dbURI, {
   useNewUrlParser: true,
@@ -28,18 +28,16 @@ mongoose.connection.on('connected', () => {
 
 app.use(require('cors')());
 app.use(express.json());
-//eventually add security templating middleware
 
-//test
+
+
 app.get('/', (req, res) => {
-  res.send('Test working');
+  res.send('Please navigate to a product');
 })
 
 
 //product Information GET request
 app.get('/products/:product_id', (req, res) => {
-  //use queryProductInfo route
-  let start = Date.now()
   const productId = parseInt(req.params.product_id);
 
 
@@ -52,8 +50,6 @@ app.get('/products/:product_id', (req, res) => {
       console.log('err in server index.js: ', err)
       res.sendStatus(500)
     }
-    let stop = Date.now()
-    console.log(`ms Elapsed during product info GET request to item: ${productId}`,stop - start)
     res.status(200).json(formattedResult)
   })
 
@@ -61,8 +57,6 @@ app.get('/products/:product_id', (req, res) => {
 
 //product Styles GET Request
 app.get('/products/:product_id/styles', (req, res) => {
-  //use queryProductStyle route
-  let start = Date.now()
   const productId = parseInt(req.params.product_id);
 
   queryProductStyle.queryProductStyle(productId, (err, result) => {
@@ -97,15 +91,8 @@ app.get('/products/:product_id/styles', (req, res) => {
       console.log('err in server index.js: ', err)
       res.sendStatus(500)
     }
-    let stop = Date.now()
-    console.log(`ms Elapsed during product style GET request to item: #${productId}`,stop - start)
     res.status(200).send(result)
 
   })
 
 })
-
-// app.get('/products/list', (req, res) => {
-//   //use queryProductList route
-//   res.status(200).send('product list')
-// })

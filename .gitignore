@@ -11,3 +11,7 @@ newrelic.js
 newrelic_agent.log
 testScript.js
 prodListTestScript.js
+data/
+productList.js
+queryProductList.js
+productListSchema.js
