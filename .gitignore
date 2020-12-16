@@ -10,3 +10,4 @@ db/.DS_Store
 newrelic.js
 newrelic_agent.log
 testScript.js
+prodListTestScript.js

@@ -26,6 +26,7 @@ mongoose.connection.on('connected', () => {
     });
   })
 
+app.use(require('cors')());
 app.use(express.json());
 //eventually add security templating middleware
 
@@ -43,8 +44,9 @@ app.get('/products/:product_id', (req, res) => {
 
 
   queryProductInfo.queryProductInfo(productId, (err, result) => {
+    let formattedId = { id: result.productId }
     let formattedPrice = { default_price: result.default_price.toString() }
-    let formattedResult = { ...result, ...formattedPrice}
+    let formattedResult = { ...formattedId, ...result, ...formattedPrice}
 
     if (err) {
       console.log('err in server index.js: ', err)
@@ -64,6 +66,33 @@ app.get('/products/:product_id/styles', (req, res) => {
   const productId = parseInt(req.params.product_id);
 
   queryProductStyle.queryProductStyle(productId, (err, result) => {
+    let firstFormatted = {
+      original_price: result.results[0].original_price.toString(),
+      sale_price: result.results[0].sale_price.toString(),
+    };
+    let secondFormatted = {
+      original_price: result.results[1].original_price.toString(),
+      sale_price: result.results[1].sale_price.toString(),
+    };
+
+    result.results[0] = { ...result.results[0], ...firstFormatted };
+    result.results[1] = {  ...result.results[1], ...secondFormatted };
+
+    let firstSkus = {};
+    let secondSkus = {};
+
+    for (let i = 0; i < result.results[0].skus.sizes.length; i++) {
+      let name = result.results[0].skus.sizes[i].size;
+      firstSkus[name] = result.results[0].skus.sizes[i].qty;
+    }
+    for (let j = 0; j < result.results[1].skus.sizes.length; j++) {
+      let name = result.results[1].skus.sizes[j].size;
+      secondSkus[name] = result.results[1].skus.sizes[j].qty;
+    }
+
+    result.results[0].skus = {...firstSkus}
+    result.results[1].skus = {...secondSkus}
+
     if (err) {
       console.log('err in server index.js: ', err)
       res.sendStatus(500)
