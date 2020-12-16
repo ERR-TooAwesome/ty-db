@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 const ProductStyle = require('../db/models/productStyle.js');
-const dbURI = "mongodb://localhost:27017/tenMillionRecords"
 
 const queryProductStyle = (id, callback) => {
 

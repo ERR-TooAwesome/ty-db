@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const ProductInfo = require('../db/models/productInfo.js');
-const dbURI = "mongodb://localhost:27017/tenMillionRecords";
+
 
 const queryProductInfo = (id, callback) => {
 
