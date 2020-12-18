@@ -7,15 +7,14 @@ const queryProductInfo = require('../queries/queryProductInfo.js');
 const queryProductStyle = require('../queries/queryProductStyle.js');
 const queryProductList = require('../queries/queryProductList.js');
 
-const dbURI = "mongodb://ec2-18-188-41-117.us-east-2.compute.amazonaws.com";
+const dbURI = "mongodb://ec2-18-188-41-117.us-east-2.compute.amazonaws.com/productDetail";
 
 mongoose.connect(dbURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  user: server-read,
-  pass: server,
-  dbName: productDetail,
-  authSource: admin,
+  user: 'server-read',
+  pass: 'server',
+  authSource: 'productDetail',
   // poolSize: 100,
 })
 
