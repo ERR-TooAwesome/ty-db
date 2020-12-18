@@ -4,7 +4,7 @@ const ProductInfo = require('../db/models/productInfo.js');
 
 const queryProductInfo = (id, callback) => {
 
-        mongoose.connection.db.collection("tenMillionRecords", function (err, collection) {
+        mongoose.connection.db.collection("productRecords", function (err, collection) {
           if (err) { console.log(err); }
           collection.findOne({ productId: id })
             .then((result) => {

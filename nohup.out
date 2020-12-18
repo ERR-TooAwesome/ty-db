@@ -1,0 +1,72 @@
+npm ERR! missing script: dev
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ec2-user/.npm/_logs/2020-12-16T23_36_23_435Z-debug.log
+npm ERR! missing script: dev
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ec2-user/.npm/_logs/2020-12-16T23_36_53_439Z-debug.log
+npm ERR! missing script: dev
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ec2-user/.npm/_logs/2020-12-16T23_38_16_207Z-debug.log
+npm ERR! missing script: dev
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ec2-user/.npm/_logs/2020-12-16T23_38_30_607Z-debug.log
+npm ERR! missing script: dev
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ec2-user/.npm/_logs/2020-12-16T23_39_03_887Z-debug.log
+
+> ty-db@1.0.0 start
+> node ./server/index.js
+
+Mongoose connected to mongodb://ec2-52-15-225-16.us-east-2.compute.amazonaws.com/tenMillionRecords
+Server Started
+server running at: http://localhost:5000
+
+> ty-db@1.0.0 start
+> node ./server/index.js
+
+Mongoose connected to mongodb://ec2-52-15-225-16.us-east-2.compute.amazonaws.com/tenMillionRecords
+Server Started
+server running at: http://localhost:5000
+node:internal/process/promises:227
+          triggerUncaughtException(err, true /* fromPromise */);
+          ^
+
+TypeError: Cannot read property 'productId' of null
+    at /home/ec2-user/server/ty-db/server/index.js:45:36
+    at /home/ec2-user/server/ty-db/queries/queryProductInfo.js:11:15
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+npm ERR! code 1
+npm ERR! path /home/ec2-user/server/ty-db
+npm ERR! command failed
+npm ERR! command sh -c node ./server/index.js
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ec2-user/.npm/_logs/2020-12-17T17_32_09_060Z-debug.log
+
+> ty-db@1.0.0 start
+> node ./server/index.js
+
+Mongoose connected to mongodb://ec2-52-15-225-16.us-east-2.compute.amazonaws.com/tenMillionRecords
+Server Started
+server running at: http://localhost:5000
+node:internal/process/promises:227
+          triggerUncaughtException(err, true /* fromPromise */);
+          ^
+
+TypeError: Cannot read property 'productId' of null
+    at /home/ec2-user/server/ty-db/server/index.js:45:36
+    at /home/ec2-user/server/ty-db/queries/queryProductInfo.js:11:15
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)
+npm ERR! code 1
+npm ERR! path /home/ec2-user/server/ty-db
+npm ERR! command failed
+npm ERR! command sh -c node ./server/index.js
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ec2-user/.npm/_logs/2020-12-17T17_42_17_765Z-debug.log
